@@ -1,0 +1,66 @@
+@import "reset";
+@import "variables";
+@import "breakpoint";
+@import "susy";
+
+$susy: (
+  columns: 12,
+  gutters: .25,
+);
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $bg-color;
+
+	@include breakpoint($tablet-portrait) {
+
+	}
+
+	@include breakpoint($tablet-landscape) {
+
+	}
+
+	@include breakpoint($desktop-small, $no-query: true) {
+
+	}
+
+	@include breakpoint($desktop-normal) {
+
+	}
+
+	@include breakpoint($desktop-large) {
+
+	}
+}
+
+.wrapper {
+	@include container(75em);
+	padding: 0 30px;
+
+	@include breakpoint($tablet-portrait) {
+
+	}
+
+	@include breakpoint($tablet-landscape) {
+
+	}
+
+	@include breakpoint($desktop-small, $no-query: true) {
+		padding: 0;
+	}
+
+	@include breakpoint($desktop-normal) {
+
+	}
+
+	@include breakpoint($desktop-large) {
+
+	}
+}
+
+
+@import "startseite";
+@import "plugins";

@@ -1,0 +1,21 @@
+$font: 'Helvetica Neue', sans-serif;
+
+$bg-color: #fff;
+
+$primary-color: #ce1a1c;
+$secondary-color: #1764cd;
+$black: lighten(black,10%);
+
+$text-color: lighten(black,40%);
+$heading-color: lighten(black,20%);
+$link-color: $primary-color;
+
+
+
+$phone: max-width 639px;
+$tablet-portrait: 640px;
+$tablet-landscape: 960px;
+$desktop-small: 1025px;
+$desktop-normal: 1280px;
+$desktop-large: 1680px;
+
